@@ -1,44 +1,42 @@
 :root {
     --kermit-green: #5cb200;
     --miss-piggy-pink: #cc338b;
-  }
-  
-  #main {
-  
-  }
-  
-  #title {
-    text-align: center;
-    font-family: Lobster, cursive;
-    font-size: 70px;
-  }
-  
-  #img-div{
-    background-color: var(--kermit-green);
-    margin-right: 26%;
-    margin-left: 26%;
-  }
-  
-  #image{
-    max-width: 100%;
-    display: block;
-    height: auto;
-    padding: 30px;
-    margin-top: 10px;margin: auto;
-  }
-  
-  #img-caption {
-    text-align: center;
-  }
-  
-  #tribute-info {
-  
-  }
-  
-  a:link {
-    color: var(--kermit-green);
-  }
-  
-  a:visited {
-    color: var(--miss-piggy-pink);
-  }
+}
+
+/* #main {
+} */
+
+#title {
+text-align: center;
+font-family: Lobster, cursive;
+font-size: 70px;
+}
+
+#img-div{
+background-color: var(--kermit-green);
+margin-right: 26%;
+margin-left: 26%;
+}
+
+#image{
+max-width: 100%;
+display: block;
+height: auto;
+padding: 30px;
+margin-top: 10px;margin: auto;
+}
+
+#img-caption {
+text-align: center;
+}
+
+/* #tribute-info {
+} */
+
+a:link {
+color: var(--kermit-green);
+}
+
+a:visited {
+color: var(--miss-piggy-pink);
+}
