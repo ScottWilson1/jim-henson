@@ -13,17 +13,18 @@ font-size: 70px;
 }
 
 #img-div{
-background-color: var(--kermit-green);
-margin-right: 26%;
-margin-left: 26%;
 }
 
 #image{
 max-width: 100%;
 display: block;
 height: auto;
-padding: 30px;
-margin-top: 10px;margin: auto;
+border-color: var(--kermit-green);
+border-width: 30px;
+border-style: solid;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
 }
 
 #img-caption {
