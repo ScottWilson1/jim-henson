@@ -1,13 +1,19 @@
 :root {
     --kermit-green: #5cb200;
-    --miss-piggy-pink: #cc338b;
-    --animal-orange: #e66e1e;
+    --miss-piggy-pink: #E51070;
+    --animal-orange: #f57d51;
     --gonzo-blue: #2f6298;
+    --big-bird-yellow: #f6d931;
 }
 
 @media all {
     #main {
         font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .content-margin {
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
     #title {
@@ -17,6 +23,8 @@
     }
 
     #img-div{
+    margin-left: 25%;
+    margin-right: 25%;
     }
 
     #image{
@@ -28,28 +36,59 @@
     border-style: solid;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     }
 
     #img-caption {
     text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
     margin-bottom: 30px;
-    font-size: 22px;
+    font-size: 20px;
     }
 
     #tribute-list {
-        margin-left: 150px;
-        margin-right: 150px;
-        margin-left: 15%;
-        margin-right: 15%;
+        padding-left: 0px;
+        margin-left: 0px;
+        list-style-type: none;
     }
 
     li {
-        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
 
+    li.emphasized-kermit{
+        border-left: 8px solid var(--kermit-green);
+        padding-left: 6px;
+        margin-left: -14px;
+    }
+
+    li.emphasized-miss-piggy{
+        border-left: 8px solid var(--miss-piggy-pink);
+        padding-left: 6px;
+        margin-left: -14px;
+    }
+
+    li.emphasized-gonzo{
+        border-left: 8px solid var(--gonzo-blue);
+        padding-left: 6px;
+        margin-left: -14px;
+
+    }
+
+    li.emphasized-animal{
+        border-left: 8px solid var(--animal-orange);
+        padding-left: 6px;
+        margin-left: -14px;
+    }
+
+    li.emphasized-big-bird{
+        border-left: 8px solid var(--big-bird-yellow);
+        padding-left: 6px;
+        margin-left: -14px;
+    }
+
+    #bottom-link {
+        padding-bottom: 50px;
+    }
+    
     a:link {
     color: var(--kermit-green);
     }
