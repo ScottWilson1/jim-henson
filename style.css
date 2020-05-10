@@ -1,9 +1,22 @@
 :root {
     --kermit-green: #5cb200;
+    --kermit-green-light: #ebffd6;
     --miss-piggy-pink: #E51070;
+    --miss-piggy-pink-light: #fde7f1;
     --animal-orange: #f57d51;
+    --animal-orange-light: #fde9e2;
     --gonzo-blue: #2f6298;
+    --gonzo-blue-light: #e0eaf5;
     --big-bird-yellow: #f6d931;
+    --big-bird-yellow-light: #fdf8d8;
+    --jim-henson-blue: #1ebbe6;
+}
+
+@font-face {
+    font-family: 'jim_henson_font';
+    src: url('fonts/jim_henson_font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @media all {
@@ -17,31 +30,34 @@
     }
 
     #title {
-    text-align: center;
-    font-family: Lobster, cursive;
-    font-size: 70px;
+        text-align: center;
+        font-family: 'jim_henson_font', Lobster, cursive;
+        font-size: 100px;
+        color: var(--jim-henson-blue);
+        margin-top: 35px;
+        margin-bottom: 15px;
     }
 
     #img-div{
-    margin-left: 25%;
-    margin-right: 25%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
 
     #image{
-    max-width: 100%;
-    display: block;
-    height: auto;
-    border-color: var(--kermit-green);
-    border-width: 30px;
-    border-style: solid;
-    margin-left: auto;
-    margin-right: auto;
+        max-width: 100%;
+        display: block;
+        height: auto;
+        border-color: var(--kermit-green);
+        border-width: 30px;
+        border-style: solid;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #img-caption {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 20px;
     }
 
     #tribute-list {
@@ -58,31 +74,65 @@
         border-left: 8px solid var(--kermit-green);
         padding-left: 6px;
         margin-left: -14px;
+        padding-top: 5px;
+        margin-top: -5px;
+        padding-right: 5px;
+        margin-right: -5px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        background-color: var(--kermit-green-light);
     }
 
     li.emphasized-miss-piggy{
         border-left: 8px solid var(--miss-piggy-pink);
         padding-left: 6px;
         margin-left: -14px;
+        padding-top: 5px;
+        margin-top: -5px;
+        padding-right: 5px;
+        margin-right: -5px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        background-color: var(--miss-piggy-pink-light);
     }
 
     li.emphasized-gonzo{
         border-left: 8px solid var(--gonzo-blue);
         padding-left: 6px;
         margin-left: -14px;
-
+        padding-top: 5px;
+        margin-top: -5px;
+        padding-right: 5px;
+        margin-right: -5px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        background-color: var(--gonzo-blue-light);
     }
 
     li.emphasized-animal{
         border-left: 8px solid var(--animal-orange);
         padding-left: 6px;
         margin-left: -14px;
+        padding-top: 5px;
+        margin-top: -5px;
+        padding-right: 5px;
+        margin-right: -5px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        background-color: var(--animal-orange-light);
     }
 
     li.emphasized-big-bird{
         border-left: 8px solid var(--big-bird-yellow);
         padding-left: 6px;
         margin-left: -14px;
+        padding-top: 5px;
+        margin-top: -5px;
+        padding-right: 5px;
+        margin-right: -5px;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        background-color: var(--big-bird-yellow-light);
     }
 
     #bottom-link {
